@@ -1,7 +1,11 @@
 source 'https://rubygems.org'
 
+
 ruby '1.9.3'
-#ruby-gemset=Miproyecto
+#ruby-gemset=ejemplo
+
+#gem 'rails', '4.0.2'
+
 
 group :development do
   gem 'sqlite3', '1.3.8'
@@ -14,6 +18,7 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
+gem 'bcrypt-ruby', '3.1.2'
 
 group :production do
   gem 'pg', '0.15.1'
